@@ -15,10 +15,10 @@ body {
 
 .contenedor-form {
     background: rgba(0,0,0,.7);
-    max-width: 500px;
+    max-width: 700px;
     width: 100%;
-    margin: 48px auto;
-    border-radius: 5px;
+    margin: 68px auto;
+    border-radius: 50px;
     color: #fff;
     position: relative;
     /*padding: 40px;*/
@@ -26,8 +26,8 @@ body {
 
 .contenedor-form .toggle {
     position: absolute;
-    top: 7px;
-    right: 7px;
+    top: 17px;
+    right: 17px;
     width: 100px;
     height: 30px;
     font-size: 12px;
@@ -40,8 +40,8 @@ body {
 }
 
 .contenedor-form .toggle:hover {
-    border-top: 2px solid #0075d9;
-    border-bottom: 2px solid #0075d9;
+    border-top: 4px solid #0075d9;
+    border-bottom: 4px solid #0075d9;
 }
 
 .contenedor-form .toggle span {
@@ -50,7 +50,7 @@ body {
 
 .contenedor-form h2 {
     margin: 0 0 28px 0;
-    font-size: 20px;
+    font-size: 50px;
     font-weight: 400;
     line-height: 1;
 }
@@ -65,7 +65,7 @@ body {
     background: rgba(0,0,0,.5);
     color: #fff;
     border: none;
-    border-radius: 2px;
+    border-radius: 6px;
     border-bottom: 4px solid #ff851b;
     box-sizing: border-box;
     font-family: Roboto;
@@ -77,11 +77,11 @@ body {
 .contenedor-form input[type="text"]:focus,
 .contenedor-form input[type="password"]:focus,
 .contenedor-form input[type="email"]:focus {
-    border-bottom: 4px solid #0075d9;
+    border-bottom: 4px solid rgb(6, 230, 54);
 }
 
 .contenedor-form input[type="submit"] {
-    background: #FF851B;
+    background: rgb(6, 230, 54);
     color: #FFF;
     width: 100%;
     border: none;
@@ -95,11 +95,11 @@ body {
 }
 
 .contenedor-form input[type="submit"]:hover {
-    background: rgba(0, 117, 217, 0.7);
+    background: rgba(4, 131, 241, 0.7);
 }
 
 .contenedor-form .reset-password {
-    background: rgba(0, 117, 217, .7);
+    background: rgba(4, 128, 236, 0.7);
     width: 100%;
     padding: 15px 0;
     text-align: center;
